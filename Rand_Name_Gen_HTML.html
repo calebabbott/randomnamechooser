@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Random Name Chooser</title>
+    <link rel="stylesheet" href="Rand_Name_Gen_CSS.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+</head>
+
+<body class="gradient">
+    <main>
+        <label>&nbsp;</label>
+        <h1 class="align">Random Name Chooser</h1>
+        <div id="message" class="align"></div>
+        </div>
+        <div id='TextBoxesGroup' class="center names">
+            <div id="TextBoxDiv1">
+                <label class="names">Enter Name 1: </label>
+                <input type='textbox' id='name1'>
+            </div>
+        </div>
+        <div class="align">
+
+            <input type="button" id="choose" value="Choose Random Name" class="button buttonhl">
+
+            <input type="button" id="clear" value="Clear Names" class="button buttonhl">
+
+            <input type='button' id='addButton' value='Add Name' class='button buttonhl'>
+
+            <input type='button' id='removeButton' value='Remove Name' class="button buttonhl">
+
+
+        </div>
+
+        <div class="align">
+            <br>
+            <br>
+            <br>
+            <br>
+            <label for="results" id="results" class="results"></label>
+        </div>
+
+    </main>
+    <script src="RandomNameGenerator.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    /*padding: 0 2em 1em;*/
+}
+
+.gradient {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 20s ease infinite;
+	height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+  width: 50%;
+  border: 3px;
+  padding: 10px;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+h1 {
+  color: #fff; 
+  font-family: 'Righteous', 
+  cursive; 
+  font-size: 65px; 
+  font-weight: normal; 
+  line-height: 60px; 
+  margin: 10px 0 20px; 
+  text-transform: uppercase; 
+  text-shadow: 4px 4px 0 #000;
+  margin: 10px 0 24px; 
+  text-align: center;
+}
+
+/*div {
+    margin-bottom: 1em;
+    
+}*/
+
+label {
+    width: 10em;
+    /*display: inline-block;*/
+	/*text-align: right;*/
+	margin-right: 0.5em;
+  font-size: x-large;
+}
+
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    box-shadow: 2px 2px 0 #000;
+    cursor: pointer;
+  }
+
+  .buttonhl {
+    background-color: white; 
+    color: black; 
+    font-family: 'Righteous', cursive;
+    /*border: 2px solid #bc0cc2;*/
+    border-radius: 10px;
+    
+  }
+  
+  .button:hover {
+    background-color: #b7b3b8;
+    color: white;
+    
+  }
+
+  
+
+    .center {
+      margin: auto;
+      width: 50%;
+      border: 3px;
+      padding: 10px;
+
+      }
+
+      .namechosen {
+        font-weight: bold;
+      } 
+
+      #message {
+        color: red;
+        margin-top: 1em;
+        margin-left: 3em;
+        font-size: 25px;
+    }
+
+    .align {
+      text-align: center;
+      border: 3px;
+    }
+
+.results {
+  font-size: 65px;
+  color: #fff;
+  font-family: 'Righteous', cursive;
+  font-weight: normal;
+  text-align: center;
+  text-shadow: 2px 2px 0 #000;
+
+
+}
+
+.names {
+  font-family: 'Righteous', cursive;
+  color: #fff;
+}
+
+
+
